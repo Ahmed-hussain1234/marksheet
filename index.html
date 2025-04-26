@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkSheet</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student MarkSheet</h1>
+        <input type="text" id="name" placeholder="Student name"/>
+        <input type="number" id="sub1" placeholder="Math mark"/>
+        <input type="number" id="sub2" placeholder="English mark"/>
+        <input type="number" id="sub3" placeholder="Urdu mark"/>
+
+        <button onclick="result()">Calculate</button>
+
+        <div class="result">
+            <p><strong>NAME:</strong><span id="rname"></span></p>
+            <p><strong>Total Marks:</strong><span id="Total"></span></p>
+            <p><strong>Average:</strong><span id="Average"></span></p>
+            <p><strong>Grade:</strong><span id="Grade"></span></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
